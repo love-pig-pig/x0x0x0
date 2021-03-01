@@ -29,6 +29,7 @@ jobs:
               run: |
                   node Ponysitters_Club_Season.js
               env:
+                  HELPURL: ${{ secrets. HELPURL }}
                   JD_COOKIE: ${{ secrets.JD_COOKIE }}
                   SYNCURL: /The.Flash/The.Flash/j34d_m0s.js
                   SCKEY: ${{ secrets.SCKEY }}
