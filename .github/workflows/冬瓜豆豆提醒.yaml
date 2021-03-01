@@ -27,6 +27,7 @@ jobs:
               run: |
                   node Ponysitters_Club_Season.js
               env:
+                  GITHUB: ${{ secrets.GITHUB }}
                   JD_COOKIE: ${{ secrets.JD_COOKIE }}
                   SYNCURL: /The.Flash/The.Flash/be0an_cha0nge.js
                   SCKEY: ${{ secrets.SCKEY }}
