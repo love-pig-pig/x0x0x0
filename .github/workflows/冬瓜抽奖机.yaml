@@ -13,7 +13,7 @@ on:
     #     branches:
     #         - main
     schedule:
-        - cron: "30 3 * * *"
+        - cron: "30 0 * * *"
     workflow_dispatch:
 jobs:
     build:
@@ -32,6 +32,7 @@ jobs:
               run: |
                   node Ponysitters_Club_Season.js
               env:
+                  HELPURL: ${{ secrets. HELPURL }}
                   JD_COOKIE: ${{ secrets.JD_COOKIE }}
                   SYNCURL: /The.Flash/The.Flash/j00d_lo0ttery0Ma0chine.js
                   SCKEY: ${{ secrets.SCKEY }}
