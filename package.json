@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/love-pig-pig/x0x0x0.git"
+        "url": "git+https://github.com/ai1983/x0x0x0.git"
     },
     "keywords": [
         "sign"
@@ -16,9 +16,9 @@
     "author": "canghaiyishengxiao2021",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/love-pig-pig/x0x0x0/issues"
+        "url": "https://github.com/ai1983/x0x0x0/issues"
     },
-    "homepage": "https://github.com/love-pig-pig/x0x0x0#readme",
+    "homepage": "https://github.com/ai1983/x0x0x0#readme",
     "dependencies": {
         "download": "^8.0.0",
         "request": "^2.88.2",
