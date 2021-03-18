@@ -60,13 +60,13 @@ let MCShareCodes=[""];//萌宠
 let MHShareCodes=[""];//京东盲盒
 let ZDShareCodes=[""];//种豆
 let ASShareCodes=[""];//签到领现金
-NCShareCodes=["0ff5005a209d43fb9d03800f492190c2,e2d78eab15764fd9873954009a25f802,cc92ceca79474b329b1e3af77a6fa163,168b1224968040ef9d788e741c052218,2ca204f479454148b0652cb7db12e729"];//京东农厂
-JCShareCodes=["X_krqiP9DEYU9WDbxISV6Q==,ehPQWNwQg2BLug_4a-4y9w==,VUTeRfFFHpGBLEjwj_0qJA==,Ubod3fJfX6BmAt3nBnoj7Q==,ptG_ADUlkJDjXJ1WmNn2qA=="];//惊喜工厂
-DCShareCodes=["T0225KkcRksYpgXeJ0nyxqEOdwCjVWnYaS5kRrbA,T019-akoE0B_vQ6mZGyUzpUCjVWnYaS5kRrbA,T0225KkcR00eoFbSdBjxl6ECcACjVWnYaS5kRrbA,T0225KkcRRZM9gGCKRmmk6NbdACjVWnYaS5kRrbA"];//东东工厂
-MCShareCodes=["MTAxODc2NTE0NzAwMDAwMDAyMzUzMjMxMw==,MTE1NDQ5OTUwMDAwMDAwMzY1NzQ4Njc=,MTE1NDAxNzcwMDAwMDAwNDA1NDY2MDM=,MTE1NDAxNzgwMDAwMDAwNDI0MzQ4Mjc=,MTAxODc2NTEzNTAwMDAwMDAyNTg1NjUwOQ=="];//萌宠
-MHShareCodes=["T0225KkcRksYpgXeJ0nyxqEOdwCjVQmoaT5kRrbA,T019-akoE0B_vQ6mZGyUzpUCjVQmoaT5kRrbA,T0225KkcRR1L9FbXJx7ykKYLJgCjVQmoaT5kRrbA,T0225KkcR00eoFbSdBjxl6ECcACjVQmoaT5kRrbA,T0225KkcRRZM9gGCKRmmk6NbdACjVQmoaT5kRrbA"];//京东盲盒
-ZDShareCodes=["olmijoxgmjutzwharsi6a56ts2sjtpthndjzkpi,4pzudgvqrzity6x5epxx7bkhyw6gqef6yemrljy,mlrdw3aw26j3wgl5bjsuuj7vegznv3v2uea2ouq,4npkonnsy7xi344watg3qcve2bwtn23ohrocuvy,mlrdw3aw26j3xwrqw5ilrtg6mdxw6eer4ds7rpa"];//种豆
-ASShareCodes=["eU9YarmzNa0v9j3TmSUX1Q,ZE9sP7LULqZXtRi1kRE,eU9Yae_gZ_4m9mrTzyIShA,eU9Ya7-1M_4jpWzQyCUb0g,eU9YaeTnZalz-G2HzCdC1g"];//签到领现金
+NCShareCodes=["0ff5005a209d43fb9d03800f492190c2","e2d78eab15764fd9873954009a25f802","cc92ceca79474b329b1e3af77a6fa163","168b1224968040ef9d788e741c052218","2ca204f479454148b0652cb7db12e729"];//京东农厂
+JCShareCodes=["X_krqiP9DEYU9WDbxISV6Q==","ehPQWNwQg2BLug_4a-4y9w==","VUTeRfFFHpGBLEjwj_0qJA==","Ubod3fJfX6BmAt3nBnoj7Q==","ptG_ADUlkJDjXJ1WmNn2qA=="];//惊喜工厂
+DCShareCodes=["T0225KkcRksYpgXeJ0nyxqEOdwCjVWnYaS5kRrbA","T019-akoE0B_vQ6mZGyUzpUCjVWnYaS5kRrbA","T0225KkcR00eoFbSdBjxl6ECcACjVWnYaS5kRrbA","T0225KkcRRZM9gGCKRmmk6NbdACjVWnYaS5kRrbA"];//东东工厂
+MCShareCodes=["MTAxODc2NTE0NzAwMDAwMDAyMzUzMjMxMw==","MTE1NDQ5OTUwMDAwMDAwMzY1NzQ4Njc=","MTE1NDAxNzcwMDAwMDAwNDA1NDY2MDM=","MTE1NDAxNzgwMDAwMDAwNDI0MzQ4Mjc=","MTAxODc2NTEzNTAwMDAwMDAyNTg1NjUwOQ=="];//萌宠
+MHShareCodes=["T0225KkcRksYpgXeJ0nyxqEOdwCjVQmoaT5kRrbA","T019-akoE0B_vQ6mZGyUzpUCjVQmoaT5kRrbA","T0225KkcRR1L9FbXJx7ykKYLJgCjVQmoaT5kRrbA","T0225KkcR00eoFbSdBjxl6ECcACjVQmoaT5kRrbA","T0225KkcRRZM9gGCKRmmk6NbdACjVQmoaT5kRrbA"];//京东盲盒
+ZDShareCodes=["olmijoxgmjutzwharsi6a56ts2sjtpthndjzkpi","4pzudgvqrzity6x5epxx7bkhyw6gqef6yemrljy","mlrdw3aw26j3wgl5bjsuuj7vegznv3v2uea2ouq","4npkonnsy7xi344watg3qcve2bwtn23ohrocuvy","mlrdw3aw26j3xwrqw5ilrtg6mdxw6eer4ds7rpa"];//种豆
+ASShareCodes=["eU9YarmzNa0v9j3TmSUX1Q","ZE9sP7LULqZXtRi1kRE","eU9Yae_gZ_4m9mrTzyIShA","eU9Ya7-1M_4jpWzQyCUb0g","eU9YaeTnZalz-G2HzCdC1g"];//签到领现金
 
 //格式["AA","BB","CC"]
 
