@@ -1283,6 +1283,26 @@ function timeFormat(time) {
   }
   return date.getFullYear() + '-' + ((date.getMonth() + 1) >= 10 ? (date.getMonth() + 1) : '0' + (date.getMonth() + 1)) + '-' + (date.getDate() >= 10 ? date.getDate() : '0' + date.getDate());
 }
+getArrRandomly = (arr) => {
+  var len = arr.length;
+  for (var i = len - 1; i >= 0; i--) {
+    var randomIndex = Math.floor(Math.random() * (i + 1));
+    var itemIndex = arr[randomIndex];
+    arr[randomIndex] = arr[i];
+    arr[i] = itemIndex;
+  }
+  return arr;
+}
+
+
+getRandomArr = (arr=[],num) => {
+  const tmpArr = getArrRandomly(arr);
+  let arrList = [];
+  for (let i = 0; i < num; i++) {
+    arrList.push(tmpArr[i]);
+  };
+  return arrList;
+}
 function readShareCode() {
 console.log(`开始读取朱丽娜。。。`)
 return new Promise(async resolve => {
