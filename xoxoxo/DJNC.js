@@ -1284,8 +1284,9 @@ function timeFormat(time) {
   return date.getFullYear() + '-' + ((date.getMonth() + 1) >= 10 ? (date.getMonth() + 1) : '0' + (date.getMonth() + 1)) + '-' + (date.getDate() >= 10 ? date.getDate() : '0' + date.getDate());
 }
 function readShareCode() {
-  return new Promise(async resolve => {
-    $.get({url: `http://jd.turinglabs.net/api/v2/jd/farm/read/${randomCount}/`, timeout: 10000,}, (err, resp, data) => {
+console.log(`开始读取朱丽娜。。。`)
+return new Promise(async resolve => {
+  $.get({url: `https://raw.githubusercontent.com/jd1994527314/iosrule/cs/JD_TG/NC.json`, timeout: 10000,}, (err, resp, data) => {
       try {
         if (err) {
           console.log(`${JSON.stringify(err)}`)
