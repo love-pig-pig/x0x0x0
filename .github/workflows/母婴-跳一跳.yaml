@@ -7,7 +7,7 @@ on:
     #     branches:
     #         - master
     schedule:
-        - cron: "0 0,6,12 17-25 3 *"
+        - cron: "0 0,6,12 17-31 3 *"
     workflow_dispatch:
 jobs:
     build:
@@ -27,7 +27,7 @@ jobs:
                   node Ponysitters_Club_Season.js
               env:
                   JD_COOKIE: ${{ secrets.JD_COOKIE }}
-                  SYNCURL: https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mother_jump.js
+                  SYNCURL: /The.Flash/The.Flash//z_mother_jump.js
                   SCKEY: ${{ secrets.SCKEY }}
                   BARK_PUSH: ${{ secrets.BARK_PUSH }}
                   PUSH_KEY: ${{ secrets.PUSH_KEY }}
