@@ -1,17 +1,16 @@
-# File: .github/workflows/repo-sync.yml
-name: Fork每天自动同步1次
+name: 同步上游仓库sync
 on:
   schedule:
-    - cron: '30 16 * * *'
+    - cron: '1 16 * * *'
   workflow_dispatch:
   watch:
     types: started
   repository_dispatch:
-    types: repo-sync
+    types: sync-repo
 jobs:
   repo-sync:
     env:
-      PAT: ${{ github.event.client_payload.PAT || secrets.PAT }} 
+      PAT: ${{ secrets.PAT }} 
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
     steps:
@@ -19,7 +18,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: 开始自动同步-每天1次
+      - name: sync love-pig-pig/x0x0x0
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
@@ -27,4 +26,3 @@ jobs:
           source_branch: "main"
           destination_branch: "main"
           github_token: ${{ github.event.client_payload.PAT || secrets.PAT }}
-
