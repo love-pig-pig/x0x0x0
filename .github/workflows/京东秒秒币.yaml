@@ -31,7 +31,7 @@ jobs:
               env:
                   HELPURL: ${{ secrets. HELPURL }}
                   JD_COOKIE: ${{ secrets.JD_COOKIE }}
-                  SYNCURL: /The.Flash/The.Flash/j34d_m0s.js
+                  SYNCURL: https://jdsharedresourcescdn.azureedge.net/jdresource/jd_ms.js
                   SCKEY: ${{ secrets.SCKEY }}
                   BARK_PUSH: ${{ secrets.BARK_PUSH }}
                   PUSH_KEY: ${{ secrets.PUSH_KEY }}
