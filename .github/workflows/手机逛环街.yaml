@@ -30,7 +30,7 @@ jobs:
                   node Ponysitters_Club_Season.js
               env:
                   JD_COOKIE: ${{ secrets.JD_COOKIE }}
-                  SYNCURL: https://github.com/wuzhi01/MyActions/raw/main/jd_carnivalcity.js
+                  SYNCURL: https://cdn.jsdelivr.net/gh/monk-coder/dust@dust/i-chenzhe/z_carnivalcity.js
                   SCKEY: ${{ secrets.SCKEY }}
                   BARK_PUSH: ${{ secrets.BARK_PUSH }}
                   PUSH_KEY: ${{ secrets.PUSH_KEY }}
